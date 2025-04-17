@@ -1,6 +1,6 @@
 # Unifi IP Reservation Importer
 
-A Python utility for easily importing and configuring static IP reservations with VLAN assignments on UniFi networking equipment. 
+A Python utility for easily importing and configuring static IP reservations from a CSV file on UniFi networking equipment. 
 
 ## Features
 
