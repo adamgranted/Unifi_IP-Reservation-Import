@@ -1,6 +1,6 @@
 # Unifi IP Reservation Importer
 
-A Python utility for easily importing and configuring static IP reservations with VLAN assignments on UniFi networking equipment.
+A Python utility for easily importing and configuring static IP reservations with VLAN assignments on UniFi networking equipment. 
 
 ## Features
 
@@ -15,7 +15,7 @@ A Python utility for easily importing and configuring static IP reservations wit
 - Python 3.6 or higher
 - `requests` library (`pip install requests`)
 - UniFi controller (UDM Pro, UDM SE, Cloud Key, etc.)
-- Admin access to your UniFi controller
+- Admin access to your UniFi controller. Ensure the user used is a local account with full admin access. 
 
 ## Installation
 
@@ -57,7 +57,7 @@ Create a CSV file with the following columns:
 2. Update the `CSV_PATH` in `unifi.py` to point to your file
 3. Run the script:
    ```
-   python unifi.py
+   python unifi-ip-import.py
    ```
 
 ## Notes
